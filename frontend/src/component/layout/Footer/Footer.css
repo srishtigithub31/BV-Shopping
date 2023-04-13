@@ -1,0 +1,72 @@
+footer{
+    margin-top: 10vmax;
+    padding: 1vmax;
+    bottom: 0%;
+    background-color: rgb(34,33,34);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.leftFooter{
+    width: 20%;
+    display:flex;
+    font-family: Roboto;
+    flex-direction: column;
+}
+.leftFooter > h4{
+    text-align: center;
+    font-family :Roboto;
+    text-decoration: underline;
+    margin: 0.5vmax auto;
+}
+.leftFooter>p{
+    text-align: center;
+    font-size: 1vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.leftFooter > a{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 1.2vmax;
+    color: rgb(255, 255, 255);
+    margin: 0.2vmax auto;
+}
+.leftFooter > a:hover{
+    color: rgb(153, 0, 255);
+}
+.midFooter{
+    width: 60%;
+    text-align: center;
+}
+.midFooter > h1{
+    font-size: 3vmax;
+    font-family:Roboto;
+    color: rgba(220, 20, 60, 0.615)
+}
+.midFooter>p{
+   max-width: 60%; 
+   margin: 1vmax auto;
+   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.rightFooter{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rightFooter > h4{
+    font-family: Roboto;
+    font-size: 1.4vmax;
+    text-decoration: underline;
+}
+.rightFooter > a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    font-size: 1.2vmax;
+    color: white;
+    margin: 0.25vmax;
+}
+.rightFooter > a:hover{
+    color: rgba(255, 0, 0, 0.463);
+}
